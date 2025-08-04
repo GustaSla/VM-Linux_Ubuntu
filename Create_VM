@@ -1,0 +1,13 @@
+# Como Criar maquina virtual Linux
+(Valores podem mudar dependendo da máquina e preferencias) 
+Abrir Maquina Virtual e clicar em "Novo" <br>
+Dar um nome para sua máquina virtual
+Escolher a Imagem ISO que você quer usar
+Assinalar a opção "Pular Instalação Desassistida"
+Definir Memória Base e Processadores (utilizado 4096 MB e 2 CPUs) e habilitar EFI
+Disco Rígido Virtual no tamanho de 25 GB
+
+Em configurações:
+Sistema> Processador> Habilitar PAE/NX
+Monitor> Memória de Vídeo 128MB > Habilitar aceleração 3D
+Rede> Placa em modo Bridge
