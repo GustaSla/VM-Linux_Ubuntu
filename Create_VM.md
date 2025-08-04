@@ -1,4 +1,5 @@
 # Como Criar uma Maquina Virtual Linux <br> (Valores podem mudar dependendo da máquina e preferencias) <br>
+## No Oracle VM
 Abrir Maquina Virtual e clicar em "Novo" <br>
 Dar um nome para sua máquina virtual <br>
 Escolher a Imagem ISO que você quer usar <br>
