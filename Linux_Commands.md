@@ -12,6 +12,10 @@ Reinicia a máquina <br>
 sudo apt update && sudo apt upgrade <br>
 Faz os dois comandos ao mesmo tempo
 
+sudo apt install build-essential dkms linux-headers-$(uname -r) <br>
+
+cd /media/$USER/VBox_GAs_7.0.6 <br>
+
 ## Glossário <br>
 sudo: grupo padrão do Linux <br>
 root: é um administrador, gerencia outros usuários  <br>
