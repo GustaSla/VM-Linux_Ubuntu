@@ -9,7 +9,7 @@ Utilizado para "executar" os arquivos padrões do Linux <br>
 sudo reboot <br>
 Reinicia a máquina <br>
 
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade <br>
 Faz os dois comandos ao mesmo tempo
 
 ## Glossário <br>
