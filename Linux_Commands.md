@@ -9,6 +9,9 @@ Utilizado para "executar" os arquivos padrões do Linux <br>
 sudo reboot <br>
 Reinicia a máquina <br>
 
+sudo apt update && sudo apt upgrade
+Faz os dois comandos ao mesmo tempo
+
 ## Glossário <br>
 sudo: grupo padrão do Linux <br>
 root: é um administrador, gerencia outros usuários  <br>
