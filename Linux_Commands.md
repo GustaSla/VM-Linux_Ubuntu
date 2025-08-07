@@ -1,4 +1,4 @@
-# COMANDOS PARA USAR NO TERMINAL DO LINUX
+# COMANDOS PARA USAR NO TERMINAL DO LINUX 🦇
 CRTL + ALT + T para abrir terminal <br> 
 sudo apt update <br>
 Utilizado para "baixar" os arquivos padrões do Linux <br>
