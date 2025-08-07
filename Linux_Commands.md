@@ -13,8 +13,10 @@ sudo apt update && sudo apt upgrade <br>
 Faz os dois comandos ao mesmo tempo
 
 sudo apt install build-essential dkms linux-headers-$(uname -r) <br>
+Instala uma ferramenta que compila codigo fonte <br>
 
 cd /media/$USER/VBox_GAs_7.0.6 <br>
+Executar uma midia instalada na maquina(CD como exemplo)<br>
 
 ## Glossário <br>
 sudo: grupo padrão do Linux <br>
