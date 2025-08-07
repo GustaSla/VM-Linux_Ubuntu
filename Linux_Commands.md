@@ -13,12 +13,20 @@ sudo apt update && sudo apt upgrade <br>
 Faz os dois comandos ao mesmo tempo
 
 sudo apt install build-essential dkms linux-headers-$(uname -r) <br>
-Instala uma ferramenta que compila codigo fonte <br>
+build essentials: ferramento que compila código-fonte <br>
+dkms: recompilador de aplicações para ser compativel com o Kernel do Guest<br>
 
 cd /media/$USER/VBox_GAs_7.0.6 <br>
-Executar uma midia instalada na maquina(CD como exemplo)<br>
+Leva até o diretório onde está o aplicado para instalar recursos adicionais de convidado<br>
+
+sudo ./VBoxLinuxAdditions.run<br>
+Executa a aplicação disponível no diretório que acessou e instala os recursos<br>
+
+lsmod | grep vbox<br>
+
 
 ## Glossário <br>
 sudo: grupo padrão do Linux <br>
 root: é um administrador, gerencia outros usuários  <br>
 apt: arquivos padrões do Linux <br>
+$USER: usuário
