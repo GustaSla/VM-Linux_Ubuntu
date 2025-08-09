@@ -25,7 +25,7 @@ lsmod | grep vbox<br>
 Lista módulos que estão no Kernel <br>
 
 echo $USER<br>
-Echo ira fazer com que apareça o nome do usuario, mas pode ser usado também para mostrar mais informações de alguma operação ou repetir palavras e frases como "Hello World"<br>
+Ira listar quem é o usuario do Linux<br>
 
 > [!NOTE]
 > Comandos podem ser usados em qualquer Linux pois se tratam do mesmo Kernel(Cérebro)
@@ -40,4 +40,18 @@ Echo ira fazer com que apareça o nome do usuario, mas pode ser usado também pa
 - build essentials: ferramento que compila código-fonte <br>
 - dkms: recompilador de aplicações para ser compativel com o Kernel do Guest<br>
 - ls: listar algo
+- cd: entrar em pastas
+- cat: utiliza para ler arquivos
+- echo: grava frases em arquivos
+- clear: limpa tela do terminal
+- nano e vim: editam texto
+-cd ../: volta para a pasta anterior que esta sendo acessada pelo terminal
 
+# COMANDOS PARA USAR NO VIM
+- :q!: sair sem salvar
+- :wq: sair salvando
+- set number: numera as linhas do arquivo
+
+## Glossário do vim
+- q: quit
+- w: write
