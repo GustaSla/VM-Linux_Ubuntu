@@ -11,3 +11,7 @@
 Sistema> Processador> Habilitar PAE/NX <br>
 Monitor> Memória de Vídeo 128MB > Habilitar aceleração 3D <br>
 Rede> Placa em modo Bridge <br>
+
+
+# Após ter criado a VM <br>
+Para que o Host e o Guest tenhan acessos a pastas de um do outro, ir em Pastas Compartilhadas, na opção "Acrescenta uma nova pasta compartilhada" e selecionar o caminho da pasta
