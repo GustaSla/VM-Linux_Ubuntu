@@ -27,6 +27,9 @@ Lista módulos que estão no Kernel <br>
 echo $USER<br>
 Ira listar quem é o usuario do Linux<br>
 
+sudo adduser $USER vboxsf<br>
+Adiciona usuario na VBOX
+
 > [!NOTE]
 > Comandos podem ser usados em qualquer Linux pois se tratam do mesmo Kernel(Cérebro)
 
@@ -46,6 +49,7 @@ Ira listar quem é o usuario do Linux<br>
 - clear: limpa tela do terminal
 - nano e vim: editam texto
 - cd ../: volta para a pasta anterior que esta sendo acessada pelo terminal
+- kernel: é basicamente o "cérebro" do sistema operacional
 
 # COMANDOS PARA USAR NO VIM
 - :q!: sair sem salvar
