@@ -45,7 +45,7 @@ Ira listar quem é o usuario do Linux<br>
 - echo: grava frases em arquivos
 - clear: limpa tela do terminal
 - nano e vim: editam texto
--cd ../: volta para a pasta anterior que esta sendo acessada pelo terminal
+- cd ../: volta para a pasta anterior que esta sendo acessada pelo terminal
 
 # COMANDOS PARA USAR NO VIM
 - :q!: sair sem salvar
