@@ -30,6 +30,12 @@ Ira listar quem é o usuario do Linux<br>
 sudo adduser $USER vboxsf<br>
 Adiciona usuario na VBOX
 
+cat (arquivo de text)<br>
+Ira ler o texto desse arquivo pelo terminal<br>
+
+echo "seu texto" > (nome do arquivo)<br>
+Ira colocar uma escrita, nesse caso, "seu texto" nesse arquivo, para escrever algo que não sobrepoe o texto anterior, utilize >>, se não existir um arquivo com esse nome, ele sera criado automaticamente com o texto que você selecionou <br>
+
 > [!NOTE]
 > Comandos podem ser usados em qualquer Linux pois se tratam do mesmo Kernel(Cérebro)
 
@@ -47,7 +53,7 @@ Adiciona usuario na VBOX
 - cat: utiliza para ler arquivos
 - echo: grava frases em arquivos
 - clear: limpa tela do terminal
-- nano e vim: editam texto
+- nano e vim: editam texto, sendo dois programas basicos de edição de texto do Linux
 - cd ../: volta para a pasta anterior que esta sendo acessada pelo terminal
 - kernel: é basicamente o "cérebro" do sistema operacional
 
