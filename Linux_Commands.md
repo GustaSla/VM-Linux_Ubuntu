@@ -57,18 +57,27 @@ Adicionar o mesmo usuario para varios grupos <br>
 sudo adduser $USER alunos <br>
 Adicionar usuario dentro de um grupo <br>
 
-sudo mkdir home/ <br>
+sudo mkdir home/(nome da pasta) <br>
 Cria um novo diretório<br>
 
-sudo chown:alunos pasta_alunos<br>
-mudou o proprietário do diretorio
+sudo chown :alunos pasta_alunos<br>
+Mudou o proprietário do diretorio
+
+comando groups <br>
+Mostra os grupos
+
+cat /etc/group <br>
+Encontra todos os grupos existentes
+
+sudo chmod 750 pasta_docentes <br>
+Muda as possibilidades do que os usuarios, grupos e outros podem fazer nessas pastas
 
 > [!NOTE]
 > Quase todos os comandos podem ser usados em qualquer Linux
 
 ## Glossário <br>
 - sudo: grupo padrão do Linux <br>
-- root: é um administrador, gerencia outros usuários  <br>
+- root: é o administrador, gerencia outros usuários  <br>
 - grep: é um filtro que vai pesquisar apenas o que você deseja(vbox, pastas, etc) <br>
 - vbox: prefixo que inicia normalmente os nomes dos módulos do VirtualBox<br>
 - apt: arquivos padrões do Linux <br>
@@ -89,10 +98,11 @@ mudou o proprietário do diretorio
 - etc: fica o diretorio "group"
 - -aG: -usuario, append(anexar), Group(grupo)
 - drwxr: D: diretorio, R: read, W: write, X: execute
-
+- diretório etc: aonde vc encontra os grupo nos quais o usuário logado faz parte
+- rwx: r:4, w:2, x:1 (valores octais)
 # COMANDOS PARA USAR NO VIM
 - :q!: sair sem salvar
-- :wq: sair salvando
+- :wq: salvar e sair
 - set number: numera as linhas do arquivo
 
 ## Glossário do vim
