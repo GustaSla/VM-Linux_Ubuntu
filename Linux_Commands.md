@@ -42,7 +42,7 @@ Você ira entrar em uma pasta criada no windows, tendo o diretorio sf_(nome da p
 sudo apt install vim<br>
 Instala o programa Vim<br>
 
-ls -l <br>
+ls -l(se for -r, é por ordem alfabetica contraria) <br>
 Detalha a listagem, respectivamente: o usuario proprietario, grupo proprietario, tamanho da pasta (kb), o mês, dia e horario que o arquivo foi criado/alterado pela ultima vez <br>
 
 sudo groupadd nome_do_grupo <br>
@@ -72,6 +72,9 @@ Encontra todos os grupos existentes
 sudo chmod 750 pasta_docentes <br>
 Muda as possibilidades do que os usuarios, grupos e outros podem fazer nessas pastas
 
+pwd <br>
+Fala em que diretório você está
+
 > [!NOTE]
 > Quase todos os comandos podem ser usados em qualquer Linux
 
@@ -85,7 +88,7 @@ Muda as possibilidades do que os usuarios, grupos e outros podem fazer nessas pa
 - build essentials: ferramento que compila código-fonte <br>
 - dkms: recompilador de aplicações para ser compativel com o Kernel do Guest<br>
 - ls: listar algo
-- cd: entrar em pastas/diretórios
+- cd:  (change directory) entrar em pastas/diretórios
 - cat: utiliza para ler arquivos
 - echo: grava frases em arquivos
 - clear: limpa tela do terminal
