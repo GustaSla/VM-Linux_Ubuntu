@@ -61,7 +61,7 @@ sudo mkdir home/(nome da pasta) <br>
 Cria um novo diretório<br>
 
 sudo chown :alunos pasta_alunos<br>
-Mudou o proprietário do diretorio
+Mudou o proprietário do diretorio(tem espaço entre o chown e o :)
 
 comando groups <br>
 Mostra os grupos
