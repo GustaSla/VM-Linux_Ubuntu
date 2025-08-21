@@ -79,6 +79,7 @@ Fala em que diretório você está
 > Quase todos os comandos podem ser usados em qualquer Linux
 
 ## Glossário <br>
+- /: raiz
 - sudo: grupo padrão do Linux <br>
 - root: é o administrador, gerencia outros usuários  <br>
 - grep: é um filtro que vai pesquisar apenas o que você deseja(vbox, pastas, etc) <br>
