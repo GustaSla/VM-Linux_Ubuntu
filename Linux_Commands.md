@@ -112,3 +112,6 @@ Fala em que diretório você está
 ## Glossário do vim
 - q: quit
 - w: write
+
+> [!WARNING]
+> SCRIPT DE AUDITORIA ESTA NO /media/sf_virtualbox
