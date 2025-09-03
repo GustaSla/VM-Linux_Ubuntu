@@ -75,6 +75,8 @@ Muda as possibilidades do que os usuarios, grupos e outros podem fazer nessas pa
 pwd <br>
 Fala em que diretório você está
 
+chmod +x script.sh(nome do arquivo)<br>
+Altera a permissão de execução do script  
 > [!NOTE]
 > Quase todos os comandos podem ser usados em qualquer Linux
 
@@ -97,13 +99,15 @@ Fala em que diretório você está
 - cd ../: volta para a pasta anterior que esta sendo acessada pelo terminal
 - kernel: é basicamente o "cérebro" do sistema operacional
 - chmod: altera permissões
-- chown: mudar o proprietário
+- chown: mudar o usuário proprietário
 - groups: mostra os grupos do SO
 - etc: fica o diretorio "group"
 - -aG: -usuario, append(anexar), Group(grupo)
-- drwxr: D: diretorio, R: read, W: write, X: execute
+- drwx: D: diretorio, R: read, W: write, X: execute(são permissões do Linux)
 - diretório etc: aonde vc encontra os grupo nos quais o usuário logado faz parte
 - rwx: r:4, w:2, x:1 (valores octais)
+- chgrp: muda o grupo proprietário
+
 # COMANDOS PARA USAR NO VIM
 - :q!: sair sem salvar
 - :wq: salvar e sair
@@ -115,3 +119,11 @@ Fala em que diretório você está
 
 > [!WARNING]
 > SCRIPT DE AUDITORIA ESTA NO /media/sf_virtualbox
+
+## Permissões do Linux
+Aqui podemos ver como podemos mudar as permissões de usuario, grupo e outros, cada um representa um conjunto de 3 letras<br>
+DRWXRWXRWX<br>
+D:Tipo de arquivo, podendo ser um diretório ou um arquivo<br>
+1 conjunto: User<br>
+2 conjunto: Grupo<br>
+3 conjunto: Outros<br>
